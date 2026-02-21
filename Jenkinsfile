@@ -10,7 +10,6 @@ pipeline {
     }
 }
       }
-    }
 
     stage('Terraform Apply') {
       steps {
@@ -57,4 +56,3 @@ pipeline {
     }
 
   }
-}
