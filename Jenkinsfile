@@ -4,8 +4,11 @@ pipeline {
   stages {
 
     stage('Clone Repo') {
-      steps {
-        git 'https://github.com/Adityasanjaydakare/project'
+    steps {
+        git branch: 'main',
+            url: 'https://github.com/Adityasanjaydakare/project'
+    }
+}
       }
     }
 
